@@ -13,8 +13,8 @@ jobs:
       - name: Checkmarx AST CLI Action
         uses: andregcx/ast-github-action@feature/handle_cancel_scan 
         with:
-          base_uri: https://ast-master.dev.cxast.net/
-          cx_tenant: galactica
-          cx_client_id: ${{ secrets.CX_CLIENT_ID }}
-          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
+          base_uri: https://ast.ppe.cxast.net/
+          cx_tenant: research_tenant
+          cx_client_id: andre
+          cx_client_secret: e88ecfcf-9301-431d-ae40-6cf854b0ac50
 
